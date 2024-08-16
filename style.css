@@ -1,4 +1,4 @@
-      * {
+     * {
                     font-family: "Chelsea Market", system-ui;
                 }
                 .navbar-toggler,
@@ -15,7 +15,9 @@
                 .container-navbar-one {
                     position: sticky;
                     top: 0px;
+                   
                 }
+               
                 
 /*start logo and title brand */
                 .navbar-brand {              
@@ -33,23 +35,29 @@
 /*END logo and title brand */
 
                 .ul-container-li-a-nav-one {
-                    width: 106%;
+                    width: 100%;
                     gap: 1vw;
                     position: relative;
                     left: 2vw;
                 }
-                .container-acco-search {
-                    font-weight: 100;
-                    width: fit-content;
-                    margin-right: -0.6vw;
-                    }
+            
+                .ul-container-li-a-nav-one a{
+                    font-size: 1vw;
+                    font-weight: 900;
+                }
+                .ul-container-li-a-nav-one .dropdown-menu {
+                    background-color: rgb(207, 207, 207);
+      
+                }
+                   
 
        /* start form */ 
                     .form-search {
                         position: relative;
                         width: 20vw;
-                        margin-left: 3vw;
+                        margin-left: 1vw;
                     }
+
             .form-search::after {
                     content:"\f002";
                     font-family: fontawesome;
@@ -58,26 +66,30 @@
                     top: 17%;
                     color: #6d6c6c;
                     } 
+
                 [type=search] {
-                    border-radius: 20px;
+                    border-radius: 25px;
                     font-weight: normal;
                     padding-left: 1.5vw;
-                    height: 40px;
                 }
                 [type=search]:focus {
                 box-shadow: #000 0px 0px 0.3vw;
                 }
+
                 input::placeholder {
                     font-size: 0.8vw;
                     font-weight: normal;
                 }
  /* end form */
-                
+               .acco-cart-search{
+                margin-right: 0px;
+                }
 /* start icon account and cart */
                 .container-icon-account-cart {
-                    width: 33%;
+                    width: 36%;
                     padding-top: 0.2vw;
-                    
+                    margin-right: -22px;
+
                 }
             
                 .a-cart-account {
@@ -88,6 +100,12 @@
                 .fa-user,
                 .fa-cart-shopping {
                     margin: 0.2vw;
+                }
+                .fa-user,
+                .fa-cart-shopping,
+                .a-cart-account{
+                    margin: 0.2vw;
+                    font-size: 1vw;
                 }
                                          /* end navbar */
 
@@ -137,27 +155,27 @@
                                            /* end section banner */
 
                                          /* start linkes */
-            .linkes-navbar-collapse {
-                top: 7px;
-                position: relative;
-                padding: 1vw 0vw ;
-            }
-            .ul-container-li-a-linkes-headphone {
-                min-width: 56vw;
-                gap: 1.5vw;
+               .linkes-navbar-collapse {
+                   top: 7px;
+                   position: relative;
+                   padding: 1vw 0vw ;
+               }
+               .ul-container-li-a-linkes-headphone {
+                   min-width: 56vw;
+                   gap: 1.5vw;
                     }
-            .ul-container-li-a-linkes-headphone>li {
-                background-color: rgb(233, 231, 231);
-                border-radius: 20px;
-            }
-            .dropdown-all-filters::after {
-                display: inline-block;
-                position: relative;
-                top: 5px;
-                content: "\f1de";
-                border-top: none;
-                font-family: fontawesome;
-            }                                      /* end linkes */
+               .ul-container-li-a-linkes-headphone>li {
+                   background-color: rgb(233, 231, 231);
+                   border-radius: 20px;
+               }
+               .dropdown-all-filters::after {
+                   display: inline-block;
+                   position: relative;
+                   top: 5px;
+                   content: "\f1de";
+                   border-top: none;
+                   font-family: fontawesome;
+               }                                      /* end linkes */
 
                                                 /* main and card section*/
                 .title-section-card {
